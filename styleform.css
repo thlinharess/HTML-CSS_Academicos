@@ -1,0 +1,94 @@
+header{
+    background-color: #CCCCCC;
+    
+}
+.banner{
+   position: relative; 
+   width: 940px;
+   margin: 0 auto;
+   padding: 20px 0;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+nav li{
+    display: inline;
+    font-size:22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: normal;
+}
+nav a{
+    color: black;
+    padding: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #C79C79C7;
+    text-decoration: underline;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.padrao-input{
+    display:block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+textarea{
+    display: block;
+    margin: 20px 0 20px;
+}
+.checkbox{
+    margin: 20px 0;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s all;
+    
+
+}
+.enviar:hover{
+    background: darkorange;
+    transform: rotate(70deg) scale(1.2);
+     
+}
+footer{
+    text-align: center;
+    background:url("bg.jpg");
+}
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+
+.rodape{
+    padding: 40px 0;
+}
+.copy{
+    color: white;
+}
